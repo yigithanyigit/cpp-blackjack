@@ -1,18 +1,18 @@
 #pragma once
-#include <iostream>
-#include <vector>
-#include <time.h>
+
+#include<iostream>
+#include<vector>
 #include<stdlib.h>
+#include<time.h>
 
-class Deck{
-public:
-    void shuffle();
-    void init();
-    void print_deck();
+void shuffle();
 
-    Deck () {
-        init();
-        shuffle();
-        print_deck();
-    };
-};
+void init();
+
+void print_deck();
+
+bool is_empty();
+
+int deck_size();
+
+int return_card();

@@ -9,5 +9,6 @@ add_executable(cpp_blackjack
         deck.cpp
         deck.h
         main.cpp
-
-     )
+        game.cpp
+        game.h
+        )
